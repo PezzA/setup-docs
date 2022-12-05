@@ -12,9 +12,11 @@ Install Steps
 Why vim?  Seems to be more current that VIM with essentially the same development experience.  But has the edge at certain pain points (plugins), certainly when starting out for the first time.
 
 Install Steps
- - TODO
+ - `sudo apt-get install neovim` 
 
-## Go 
+##  Neovim Plugins
+The heart of the dev experience.
+
 Started with VIM first but had some problems getting vim-go running and read around on the internet that neovim was a more out of the box experience.  So got cracking with the following excellent medium post:
 
 https://medium.com/@yanglyu5201/neovim-setup-for-golang-programming-68ebf59336d9
@@ -35,6 +37,13 @@ have added
     - Go the folder you want and enter `gs` per file to open multiple documents into their own windows.
     - `s` will open a file into a new split window and put the focus into the new window
 
+### Go
+
+#### Install Go
+Following the instructions on : https://go.dev/doc/install
+
+#### Neovim plugins
+ - vim-go
 
 ### Javascript / Typescript
 
