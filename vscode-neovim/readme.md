@@ -1,5 +1,5 @@
 # Vscode-Neovim
-Config files used to support using the https://github.com/vscode-neovim/vscode-neovim plugin for visual studio code.  Whilst the vim editing expierence and navigation is very good, there are a lot of shortcut collisions.
+Config files used to support using the https://github.com/vscode-neovim/vscode-neovim plugin for visual studio code.  Whilst the vim editing expierence and navigation is very good, there are a lot of shortcut collisions.  The approach take is not to adhere 100% to vim, and do everything the vim way, but to bring the unique editing experience across.  For example, saving the current file/buffer is `<ctrl-s>` over `:w`.  I think it's enough to know the original keybinding if you are even in a situation where it's needed, but other than that it's goes with where the current muscle memory is to help with flow.
 
 ## return to normal mode
 defined in init.lua <j> <j>
