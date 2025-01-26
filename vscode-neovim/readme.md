@@ -5,7 +5,7 @@ Config files used to support using the https://github.com/vscode-neovim/vscode-n
 defined in init.lua `<j> <j>`
 
 ## Arrow keys in normal modej
-Turned off in init.lua, it's `<h>`/`<j>`/'<k>`/`<l>` or nothing.
+Turned off in init.lua, it's `<h>`/`<j>`/`k>`/`<l>` or nothing.
 
 ## Line Numbers
 Using relative line numbers, which is handled natively by VSC settings.
