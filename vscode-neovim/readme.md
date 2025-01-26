@@ -18,6 +18,8 @@ all handled by VSC.
 `<ctrl-h>`/`<ctrl-l>` to move between editor groups in VSC
 `<alt-h>`/`<alt-l>` to move between tabs in an editor group.
 
+I almost never vertically split, so not bothered about the keybinds for those.  
+
 ## File Management
 Open recent solution
 `<ctrl-o><ctrl-k>`
