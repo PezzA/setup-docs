@@ -1,7 +1,10 @@
 # Vscode-Neovim
 Config files used to support using the https://github.com/vscode-neovim/vscode-neovim plugin for visual studio code.  Whilst the vim editing expierence and navigation is very good, there are a lot of shortcut collisions.
 
-## Arrow keys in normal mode
+## return to normal mode
+defined in init.lua <j> <j>
+
+## Arrow keys in normal modej
 Turned off in init.lua, it's h/j/k/l or nothing.
 
 ## Line Numbers
@@ -18,6 +21,12 @@ all handled by VSC.
 ## File Management
 Open recent solution
 <ctrl-o><ctrl-k>
+
+Save current file
+<ctrl-s> (can't unlearn this), set in init.lua so it works the same as VSC.  
+
+## Clipboard
+Clipboard integration set in init.lua  normal mode is yank/paste as normal for vim.
 
 ## close VSC side bar
 <ctrl-b><ctrl-b> (double tap)
